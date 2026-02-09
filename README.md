@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import arcsine from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-arcsine@deno/mod.js';
+import arcsine from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-arcsine@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-arcsine@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-arcsine@v0.1.1-deno/mod.js';
 ```
 
 #### arcsine( shape, a, b\[, options] )
@@ -343,7 +343,7 @@ var sz = random.byteLength;
 ```javascript
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import arcsine from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-arcsine@deno/mod.js';
+import arcsine from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-arcsine@v0.1.1-deno/mod.js';
 
 // Create a function for generating random arrays originating from the same state:
 var random = arcsine.factory({
