@@ -1,7 +1,7 @@
-"use strict";var t=function(o,r){return function(){return r||o((r={exports:{}}).exports,r),r.exports}};var a=t(function(m,i){
-var v=require('@stdlib/random-tools-binary-factory/dist'),e=require('@stdlib/ndarray-dtypes/dist'),u=require('@stdlib/random-base-arcsine/dist'),_=e("real_and_generic"),p=e("real_and_generic"),y=e("real_floating_point_and_generic"),d={output:"real_floating_point_and_generic"},l=v(u,[_,p],y,d);i.exports=l
-});var c=t(function(F,s){
-var q=a(),f=q();s.exports=f
-});var g=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),n=c(),x=a();g(n,"factory",x);module.exports=n;
+"use strict";var t=function(o,r){return function(){try{return r||o((r={exports:{}}).exports,r),r.exports}catch(v){throw (r=0, v)}};};var a=t(function(F,i){
+var u=require('@stdlib/random-tools-binary-factory/dist'),e=require('@stdlib/ndarray-dtypes/dist'),_=require('@stdlib/random-base-arcsine/dist'),p=e("real_and_generic"),y=e("real_and_generic"),d=e("real_floating_point_and_generic"),l={output:"real_floating_point_and_generic"},q=u(_,[p,y],d,l);i.exports=q
+});var c=t(function(O,s){
+var f=a(),g=f();s.exports=g
+});var x=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),n=c(),b=a();x(n,"factory",b);module.exports=n;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
